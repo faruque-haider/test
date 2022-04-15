@@ -80,7 +80,7 @@ float: left;
 #hero{
     width: 100%;
     float: left;
-    background: url(/img/bg-hero.png);
+    background: url(../img/bg-hero.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -119,7 +119,7 @@ float: left;
 #feature-part{
     width: 100%;
     float: left;
-    background: url(/img/feature-bg2.png);
+    background: url(../img/feature-bg2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -181,7 +181,7 @@ float: left;
 #package{
     width: 100%;
     float: left;
-    background: url(/img/pricing-bg.png);
+    background: url(../img/pricing-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -213,7 +213,7 @@ float: left;
     float: left;
     text-align: center;
     margin: 20px;
-    background: url(/img/card.png);
+    background: url(../img/card.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -250,7 +250,7 @@ float: left;
 #amazing-danace{
     width: 100%;
     float: left;
-    background: url(/img/amazing-dance.png);
+    background: url(../img/amazing-dance.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -296,7 +296,7 @@ float: left;
 #best-dance{
     width: 100%;
     float: left;
-    background: url(/img/best-dance.png);
+    background: url(../img/best-dance.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -386,7 +386,7 @@ float: left;
 #HEBERT{
     width: 100%;
     float: left;
-    background: url(/img/last-part-img.png);
+    background: url(../img/last-part-img.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -414,7 +414,7 @@ float: left;
 #SUBSCRIBE{
     width: 100%;
     float: left;
-    background:url(/img/last-design.png);
+    background:url(../img/last-design.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
