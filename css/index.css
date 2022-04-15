@@ -1,0 +1,542 @@
+/* gloval css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    /* padding: 50px 0; */
+}
+/* google-fonts */
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,500&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+.gloval-h1{
+    font-family: 'Oswald', sans-serif;
+}
+.gloval-p{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* custom css */
+
+/* header is here */
+#header{
+    width: 100%;
+    float: left;
+    background-color: #303030;
+}
+.logo-part{
+width: 20%;
+float: left;
+}
+.logo-part a img{
+    width: 35%;
+    margin: 10px;
+}
+.menu-part{
+    width: 60%;
+    float: left;
+}
+.menu-part nav{
+    margin-top: 25px;
+    text-align: center;
+    padding-right: 45px;
+}
+.menu-part nav ul{
+
+}
+.menu-part nav ul a {
+    text-decoration: none;
+}
+.menu-part nav ul a li{
+    display: inline;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    margin: 20px;
+    color: white;
+
+}
+.search-part{
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.search-part input{
+    padding: 5px;
+    border-radius: 6px;
+}
+.search-part input::placeholder{
+    text-align: center;
+}
+/* hero-section is here */
+#hero{
+    width: 100%;
+    float: left;
+    background: url(/img/bg-hero.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px 0px 58px 0px;
+}
+.hero-writing-part{
+    width: 100%;
+    float:left;
+}
+.hero-writing-part h1{
+    font-size: 70px;
+    color: white;
+    margin-top: 210px;
+    margin-bottom: 10px
+}
+.hero-writing-part p{
+    font-size: 25px;
+    color: white;
+    text-align: justify;
+    max-width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hero-writing-part a button{
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    padding: 12px 35px;
+    border-radius: 6px;
+    background-color: #e8631c;
+    border-style: none;
+}
+/* fearute-part */
+#feature-part{
+    width: 100%;
+    float: left;
+    background: url(/img/feature-bg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.feature-writing{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 40px;
+}
+.feature-writing h1{
+    font-size: 45px;
+    font-weight: 800;
+    padding-bottom: 15px;
+    color: white;
+}
+.feature-writing p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom:25px;
+}
+/* FEATURE-BOX */
+.feature-image{
+    width: 100%;
+    float: left;
+}
+.feature-box{
+    width: 30%;
+    float: left;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+.feature-box h3{
+    background-color: #303030;
+    color: white;
+    width: 372px;
+    float: left;
+    font-size: 29px;
+    margin-top: -4px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400
+}
+.feature-box p{
+    background-color: #303030;
+    color: white;
+    padding-bottom: 20px;
+    width: 372px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+/* package is here */
+#package{
+    width: 100%;
+    float: left;
+    background: url(/img/pricing-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 45px;
+}
+.package-writing{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top:50px;
+}
+.package-writing h1{
+    color: white;
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+.package-writing p{
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.package-details{
+    width: 100%;
+    float: left;
+}
+.package-box{
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 20px;
+    background: url(/img/card.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    line-height: 1.5rem;
+    
+}
+.package-box img{
+    width: 23%;
+    padding-top: 45px;
+}
+.package-box h1{
+    color: white;
+    padding-top: 40px;
+    font-size: 30px;
+}
+.package-box p{
+    font-size: 23px;
+    font-weight: 100;
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+.package-box a button{
+    padding: 7px 89px;
+    margin-bottom: 35px;
+    font-size: 23px;
+    color: white;
+    background-color: #303030;
+    border-style: none;
+    border-radius: 4px;
+}
+/* amazing-dance is here */
+#amazing-danace{
+    width: 100%;
+    float: left;
+    background: url(/img/amazing-dance.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.amazing-img{
+    width: 50%;
+    float: left;
+}
+.amazing-image img{
+    width: 55%;
+    float: left;
+    margin-left: -67px;
+}
+.amazing-writing{
+    padding-top: 310px;
+    width: 50%;
+    float: left;
+    padding-left: 140px;
+}
+.amazing-writing h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.amazing-writing p{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 28px;
+    text-align: justify;
+}
+.amazing-writing a button{
+    padding: 10px 55px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Oswald', sans-serif; ;
+    color: white;
+    background-color: #303030;
+    border-style: none;
+}
+/* best-dance-part-is-here */
+#best-dance{
+    width: 100%;
+    float: left;
+    background: url(/img/best-dance.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.best-dance-writing{
+    padding-top: 310px;
+    width: 50%;
+    float: left;
+    padding-right: 140px;
+}
+.best-dance-writing h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.best-dance-writing p{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 28px;
+    text-align: justify;
+}
+.best-dance-writing a button{
+    padding: 10px 55px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    background-color: #303030;
+    border-style: none;
+}
+.best-dance-image{
+width: 50%;
+float: left;
+}
+.best-dance-image img{
+    width: 113%;
+    margin-left: -7px;
+    margin-bottom: -4px;
+}
+/* our-statistics-is-here */
+#our-statistics{
+    width: 100%;
+    float: left;
+    background-color: #303030;
+}
+.our-statistics-wrating{
+    width: 100%;
+    float: left;
+    padding-top: 150px;
+    text-align: center;
+}
+.our-statistics-wrating h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.our-statistics-wrating p{
+    color: white;
+    font-size: 25px;
+}
+.our-statistics-rating{
+    width: 100%;
+    float: left;
+}
+.our-statistics-rating-wp{
+    width: 33.33%;
+    float: left;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.our-statistics-rating-wp h1{
+    color: white;
+}
+.our-statistics-rating-wp p{
+    color: white;
+    font-size: 17px;
+    margin-top: 12px;
+}
+/* herbert-simon-is-here */
+#HEBERT{
+    width: 100%;
+    float: left;
+    background: url(/img/last-part-img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.HEBERT-WRITING{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 374px;
+    padding-bottom: 374px;
+}
+.HEBERT-WRITING p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 45px;
+}
+.HEBERT-WRITING h1{
+    color: white;
+    font-size: 42px;
+    text-align: center;
+}
+/* subscribe-is-here*/
+#SUBSCRIBE{
+    width: 100%;
+    float: left;
+    background:url(/img/last-design.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.subscribe-writing{
+    width: 100%;
+    float: left;
+    padding-top:150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.subscribe-writing h1{
+    color: white;
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+.subscribe-writing p{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.subscribe-writing input{
+    margin-top: 15px;
+    padding: 8px 0px;
+    width: 26%;
+    border-style: none;
+}
+.subscribe-writing input::placeholder{
+    font-size: 15px;
+    padding-left: 10px;
+}
+.subscribe-writing a button{
+    padding: 8px 0px;
+    width: 8%;
+    margin-left: -5px;
+    background-color: #303030;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    border-style: none;
+}
+/* FOOTER-IS-HERE */
+#FOOTER{
+    width: 100%;
+    float: left;
+    background: #303030;
+}
+.footer-writing{
+    width: 100%;
+    float: left;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+.footer-music{
+    width: 40%;
+    float: left;
+}
+.footer-music h1{
+    color: white;
+    font-size: 28px;
+}
+.footer-music p{
+    color: white;
+    margin-top: 20px;
+    line-height: 1.5rem;
+    font-size: 20px;
+}
+.footer-icon{
+    width: 100%;
+    float: left;
+}
+.footer-icon img{
+    width: 7%;
+    margin: 22px 10px;
+    border-radius: 9px;
+    float: left;
+}
+.footer-about{
+    width: 20%;
+    float: left;
+}
+.footer-about h1{
+    color: white;
+    font-size: 28px;
+}
+.footer-about p{
+    color: white;
+    text-align: justify;
+    padding-left: 3px;
+    padding-top: 20px;
+    line-height: 2.0rem;
+    font-size: 20px;
+}
+.footer-service{
+    width: 20%;
+    float: left;
+}
+.footer-service h1{
+    color: white;
+    font-size: 28px;
+}
+.footer-service p{
+    color: white;
+    text-align: justify;
+    padding-left: 3px;
+    padding-top: 20px;
+    line-height: 2.0rem;
+    font-size: 20px;
+}
+.footer-other{
+    width: 20%;
+    float: left;
+}
+.footer-other h1{
+    color: white;
+    font-size: 28px;
+}
+.footer-other p{
+    color: white;
+    text-align: justify;
+    padding-left: 3px;
+    padding-top: 20px;
+    line-height: 2.0rem;
+    font-size: 20px;
+}
